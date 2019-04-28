@@ -1,0 +1,1 @@
+{"data":{"allDataJson":{"edges":[{"node":{"class":[{"name":"Bard","startingEquipment":{"goldAlternative":"{@dice 5d4×10|5d4 × 10|Starting Gold}"},"startingProficiencies":{"armor":["light"],"weapons":["simple","hand crossbows","longswords","rapiers","shortswords"],"tools":["three musical instruments of your choice"],"skills":{"choose":3}},"hd":{"number":1,"faces":8}}]}}]}}}
