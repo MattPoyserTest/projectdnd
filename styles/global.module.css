@@ -1,0 +1,16 @@
+.baseBackground {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 360px;
+    height: 658px;
+    background: #26262B;
+}
+
+.dropped > *{
+    top: 16px;
+}
+
+.undropped > *{
+    top: 80px;
+}

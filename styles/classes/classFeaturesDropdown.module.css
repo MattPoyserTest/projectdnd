@@ -1,0 +1,33 @@
+.dropdown{
+    position: relative;
+    height: 48px;
+    width: 312px;
+    margin-bottom: 8px;
+
+    background: #4C5057;
+    border-radius: 10px;
+}
+
+.dropdownText{
+    position: absolute;
+    width: 245px;
+    height: 24px;
+    left: 8px;
+    top: -6px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: normal;
+
+    color: #FFFFFF;
+}
+
+.dropdownArrow{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 12px;
+    top: 12px;
+}

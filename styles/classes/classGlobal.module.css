@@ -1,0 +1,10 @@
+.background{
+    position: absolute;
+    height: 456px;
+    left: 24px;
+    right: 24px;
+    top: 1544px;
+
+    background: #4C5057;
+    border-radius: 10px;
+}

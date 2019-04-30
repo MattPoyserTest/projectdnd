@@ -1,0 +1,54 @@
+.dropdown{
+    position: relative;
+    width: 344px;
+    height: 72px;
+    left: 16px;
+    margin-bottom: 8px;
+
+    background: #36393F;
+    border-radius: 10px;
+}
+
+.dropdownDiv{
+    position: relative;
+    width: 160px;
+    height: 40px;
+    left: 16px;
+    top: 16px;
+}
+
+.dropdownText{
+    position: absolute;
+    height: 29px;
+    left: 56px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 0px;
+
+    color: #FFFFFF;
+}
+
+.dropdownArrow{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 20px;
+    right: 20px;
+}
+
+
+.dropdownArrow:active{
+    transform: rotate(180deg);
+    -webkit-transition: 1s; /*you don't need to specify this again*/
+}
+
+.dropdownIcon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}

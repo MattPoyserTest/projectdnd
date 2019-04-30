@@ -1,0 +1,40 @@
+.text1{
+    height: 244px;
+    top: 56px;
+}
+
+.text2{
+    height: 75px;
+    top: 401px;
+}
+
+.text3{
+    height: 113px;
+    top: 344px;
+}
+
+.button{
+    position: absolute;
+    width: 248px;
+    height: 48px;
+    left: 40px;
+
+    background: linear-gradient(263.03deg, #FC6F94 0%, #CD75CA 52.06%, #A17BFC 100%);
+    border-radius: 10px;
+
+    text-align: center;
+    text-decoration: none;
+}
+
+.buttonText{
+    height: 29px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    line-height: 0px;
+
+    color: #FFFFFF;
+}

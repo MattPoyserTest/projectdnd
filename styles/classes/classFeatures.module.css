@@ -1,0 +1,28 @@
+.headerText{
+    position: relative;
+    width: 296px;
+    margin-bottom: 16px;
+    top: 12px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;/* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.text{
+    position: relative;
+    width: 296px;
+    margin-bottom: 4px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+    align-items: center;
+}
