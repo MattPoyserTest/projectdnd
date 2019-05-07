@@ -7,10 +7,11 @@ import React from "react"
 import styles from "../../styles/classes/classFeatures.module.css"
 import shortid from "shortid"
 
-
+/*div style: height 16 is hacky solution, combined with anything else tagged: jkl;*/
 export default (props) => {
     return (
-        <div>
+        <div className={styles.background}>
+            <div style={{height: "16px"}}/>
             <HeaderText>Hit Points</HeaderText>
             <SubText name={"Hit Dice:"}>{props.hd} </SubText>
             <SubText name={"Hit Points at 1st Level:"}>{props.hd} </SubText>
