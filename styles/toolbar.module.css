@@ -6,7 +6,6 @@
     top: 0px;
     background-color: #26262B;
 }
-
 .icon{
     position: absolute;
     width: 70px;
@@ -14,7 +13,30 @@
 }
 
 .icon:hover{
-    background: linear-gradient(234.58deg, #24CFFC -237.21%, #A17BFC 113.85%);
+    /*background: linear-gradient(234.58deg, #24CFFC -237.21%, #A17BFC 113.85%);*/
+    background: linear-gradient(250.43deg, #24CFFC -5.95%, #A17BFC 100%);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.icon1:hover{
+    background: #29cbfc;
+    /*background: linear-gradient(250.43deg, #29cbfc -5.95%, #41bbfc 100%);*/
+    border-radius: 10px 10px 0px 0px;
+}
+
+.icon2:hover{
+    background: linear-gradient(250.43deg, #46b7fc -5.95%, #5fa6fc 100%);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.icon3:hover{
+    background: linear-gradient(250.43deg, #64a2fc -5.95%, #7b92fc 100%);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.icon4:hover{
+    background: #9b7efc;
+    /*background: linear-gradient(250.43deg, #828efc -5.95%, #9b7efc 100%);*/
     border-radius: 10px 10px 0px 0px;
 }
 

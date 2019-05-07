@@ -2,11 +2,15 @@
     position: relative;
     width: 344px;
     height: 72px;
-    left: 16px;
-    margin-bottom: 8px;
+}
 
+.dropdownBackground{
+    position: relative;
     background: #36393F;
     border-radius: 10px;
+    left: 16px;
+    margin-top: 8px;
+    padding-bottom: 8px;
 }
 
 .dropdownDiv{
@@ -38,7 +42,6 @@
     top: 20px;
     right: 20px;
 }
-
 
 .dropdownArrow:active{
     transform: rotate(180deg);

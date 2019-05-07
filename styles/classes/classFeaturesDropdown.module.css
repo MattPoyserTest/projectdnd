@@ -2,10 +2,17 @@
     position: relative;
     height: 48px;
     width: 312px;
+    /*left: -16px;*/
     margin-bottom: 8px;
 
     background: #4C5057;
+    /*background: #FFFFFF;*/
     border-radius: 10px;
+}
+
+.dropdownBackground{
+    background: #36393F;
+    /*background: #FFFFFF;*/
 }
 
 .dropdownText{
@@ -30,4 +37,9 @@
     height: 24px;
     right: 12px;
     top: 12px;
+}
+
+.dropdownArrow:active{
+    transform: rotate(180deg);
+    -webkit-transition: 1s; /*you don't need to specify this again*/
 }

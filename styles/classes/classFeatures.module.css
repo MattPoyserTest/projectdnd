@@ -1,7 +1,19 @@
+.background{
+    width: 312px;
+    /*left: -16px;*/
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+
+    background: #4C5057;
+    /*background: #FFFFFF;*/
+    border-radius: 10px;
+}
+
 .headerText{
     position: relative;
     width: 296px;
     margin-bottom: 16px;
+    left: 8px;
     top: 12px;
 
     font-family: Roboto;
@@ -16,6 +28,7 @@
 .text{
     position: relative;
     width: 296px;
+    left: 8px;
     margin-bottom: 4px;
 
     font-family: Roboto;
