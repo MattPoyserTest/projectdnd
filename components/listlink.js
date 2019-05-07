@@ -13,6 +13,9 @@ import styles from "../styles/toolbar.module.css";
 // high priority request. use only for internal navigation, however.
 // also can use navigate instead, to send information.
 
+//    <Link to={props.to} className={`${props.specStyle}`} style={{left: props.left, width: "70px", height: "64px", position: "absolute"}} style={`${props.specStyle}`}>
+// <Link to={props.to} className={`${styles.icon} ${props.specStyle}`} style={{left: props.left}}><Link to={props.to} className={`${props.specStyle}`} style={{left: props.left, width: "70px", height: "64px", position: "absolute"}} style={`${props.specStyle}`}>
+
 export const ListLink = props => (
     <Link to={props.to} className={styles.icon} style={{left: props.left}}>
         <img src={props.iconpath} alt=""/>
@@ -30,6 +33,7 @@ class DropLink extends React.Component {
         };
         this.to = props.to;
         this.iconpath = props.iconpath;
+        this.specstyle = props.specstyle;
         this.children = props.children;
         this.left = props.left;
         // this.hookFunction = props.hookFunction;
@@ -52,7 +56,7 @@ class DropLink extends React.Component {
         console.log(this.state.dropdownOpen);
         return (
             <div className={styles.icon} onClick={this.toggle} style={{left: this.left}} onMouseEnter={this.toggle} onMouseLeave={this.toggle}>
-                <ListLink to={this.to} iconpath={this.iconpath} left="0px"/>
+                <ListLink to={this.to} iconpath={this.iconpath} left="0px" specstyle={this.specstyle}/>
                 {
                     this.state.dropdownOpen && (
                         <div>
