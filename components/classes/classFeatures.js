@@ -29,7 +29,7 @@ export default (props) => {
     )
 }
 
-const HeaderText = (props) => {
+export const HeaderText = (props) => {
     return (
         <div className={styles.headerText} key={shortid.generate()}>
             {props.children.toString()}
@@ -37,7 +37,7 @@ const HeaderText = (props) => {
     )
 }
 
-const SubText = (props) => {
+export const SubText = (props) => {
     return (
         <div className={styles.text} key={shortid.generate()}>
             <b> {props.name} </b>
