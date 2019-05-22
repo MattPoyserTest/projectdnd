@@ -1,0 +1,1 @@
+{"errors":[{"message":"Cannot query field \"entries\" on type \"TestdataJsonClassClassFeatures\".","locations":[{"line":26,"column":13}]}],"pageContext":{"isCreatedByStatefulCreatePages":true}}
